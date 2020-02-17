@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:layout_margin="20dp"
+
+        android:id="@+id/abc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:text="Authenticate Application"/>
+
+    <EditText
+        android:layout_margin="15dp"
+        android:id="@+id/fullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:hint="Enter full name"
+        />
+    <EditText
+        android:layout_margin="15dp"
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"/>
+    <EditText
+        android:layout_margin="15dp"
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        />
+
+    <Button
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:background="#135C5C"
+        android:textColor="#FCFBFB"
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"/>
+
+    <TextView
+        android:textColor="#151E5F"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:id="@+id/loginlink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already User? Login"/>
+</LinearLayout>

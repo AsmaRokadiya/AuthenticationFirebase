@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "474527062950",
+    "firebase_url": "https://authentkication-firebase.firebaseio.com",
+    "project_id": "authentkication-firebase",
+    "storage_bucket": "authentkication-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474527062950:android:b061270a398ead188a4d67",
+        "android_client_info": {
+          "package_name": "com.example.authentkicationfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474527062950-28hbgdi5ibs6heglt7bo3l6uk8irv445.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.authentkicationfirebase",
+            "certificate_hash": "f1044b38f70cc1c2235ee7e5fcd6540a7dc9bc3c"
+          }
+        },
+        {
+          "client_id": "474527062950-ed6t7jke97v01l57ftgjo0b5ejqrr0et.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBn0oo7yIg1wzOOhOjEp078xlu5LtBWuaY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474527062950-ed6t7jke97v01l57ftgjo0b5ejqrr0et.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
